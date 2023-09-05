@@ -18,6 +18,13 @@ the source code in your project.
 ## Getting Started
 
 Include sail as a dependency in your project: 
+
+The preferred way using deps.edn:
+```clojure
+io.github.juxt/sail {:git/tag "v0.8.15" :git/sha "e9653d3"}
+```
+
+Previous methods of installation using clojars for project.clj/deps.edn:
 ```clojure
 [com.hypalynx/sail "0.8.15"]
 {com.hypalynx/sail {:mvn/version "0.8.15"}}
